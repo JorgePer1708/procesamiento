@@ -7,7 +7,7 @@
  libro_id INT AUTO_INCREMENT primary KEY,
  titulo VARCHAR(100)not null,
  genero VARCHAR(100) not null,
- autor_id int not null,
+ autor_id int not null
  FOREIGN KEY (autor_id) REFERENCES autor(autor_id)	ON DELETE SET NULL 
   );
   
